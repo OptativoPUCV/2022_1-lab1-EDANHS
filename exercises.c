@@ -63,7 +63,12 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   return NULL;
+   Persona Dato;
+   strcpy(Dato.nombre,nombre);
+   strcpy(Dato.rut,rut);
+   Dato.edad = edad;
+
+   return &Dato;
 }
 
 /*
@@ -93,7 +98,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-   *(v + i) = valor;
+   *(v + i)->datos = valor;
 }
 
 /*
@@ -102,7 +107,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-   return *(v + i);
+   return *(v + i)->datos;
 }
 
 /*
@@ -114,7 +119,7 @@ void sumaV(Vector * a, Vector * b, Vector * c) {
    int i;
 
    for(i = 0 ; (a + i) != NULL ; i++){
-      *(c + i) = (*(a + i) + *(b + i));
+      *(c + i)->datos = (*(a + i)->datos + *(b + i)->datos);
    }
 
 }
