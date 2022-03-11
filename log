@@ -324,3 +324,13 @@ exercises.c:106:19: error: lvalue required as left operand of assignment
                    ^
 Compilation failed
 f5460c7
+Thu Mar 10 23:01:57 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:12: error: expected identifier before '(' token
+    *(v+i)->(datos+i) = valor;
+            ^
+Compilation failed
+93d8014
