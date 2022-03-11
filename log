@@ -314,3 +314,13 @@ exercises.c:106:20: error: lvalue required as left operand of assignment
                     ^
 Compilation failed
 9595bba
+Thu Mar 10 23:01:30 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:19: error: lvalue required as left operand of assignment
+    (v+i)->datos+i = valor;
+                   ^
+Compilation failed
+f5460c7
