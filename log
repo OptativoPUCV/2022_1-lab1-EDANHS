@@ -420,3 +420,16 @@ Fri Mar 11 17:51:11 HSP 2022:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 4176e6d
+Fri Mar 11 17:55:42 HSP 2022: 
+ exercises.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:127:19: error: invalid type argument of unary '*' (have 'int')
+    for(i = 0; i < *a->capacidad; i++){
+                   ^~~~~~~~~~~~~
+exercises.c:128:19: error: lvalue required as left operand of assignment
+       *c->datos+i = (*a->datos+i) + (*b->datos+i);
+                   ^
+Compilation failed
+0d3ac5b
