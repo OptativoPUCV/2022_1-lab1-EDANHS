@@ -515,3 +515,16 @@ Fri Mar 11 18:23:48 HSP 2022:
  tests:  7|1
 total_score: 60/70
 ef5b3ca
+Fri Mar 11 18:25:57 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:127:15: error: invalid type argument of unary '*' (have 'int')
+    while((i < *a->capacidad)){
+               ^~~~~~~~~~~~~
+exercises.c:128:19: error: lvalue required as left operand of assignment
+       *c->datos+i = (a->datos[i]) + (b->datos[i]);
+                   ^
+Compilation failed
+b8deb56
