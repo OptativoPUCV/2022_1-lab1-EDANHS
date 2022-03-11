@@ -197,3 +197,13 @@ exercises.c:106:4: error: invalid type argument of unary '*' (have 'int')
     ^~~~~~~~~~~~~~~~~~
 Compilation failed
 9dbbc0e
+Thu Mar 10 22:47:24 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:14: error: invalid type argument of '->' (have 'Vector {aka struct <anonymous>}')
+    (*(v + i))->datos[i] = valor;
+              ^~
+Compilation failed
+cc888c3
