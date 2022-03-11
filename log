@@ -349,3 +349,13 @@ Fri Mar 11 10:52:27 HSP 2022:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 4a5982f
+Fri Mar 11 10:53:26 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:8: error: invalid type argument of '->' (have 'Vector {aka struct <anonymous>}')
+    v[i]->datos[i] = valor;
+        ^~
+Compilation failed
+c4672f9
