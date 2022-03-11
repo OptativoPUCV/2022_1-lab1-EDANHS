@@ -222,3 +222,13 @@ Thu Mar 10 22:54:45 HSP 2022:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 1141273
+Thu Mar 10 22:55:42 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:12: error: expected identifier before '*' token
+    *(v+i)->*(datos+i) = valor;
+            ^
+Compilation failed
+10b8057
