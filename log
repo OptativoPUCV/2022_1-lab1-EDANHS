@@ -293,3 +293,14 @@ exercises.c:106:10: error: 'v + (sizetype)((unsigned int)i * 8u)' is a pointer; 
           ->
 Compilation failed
 778fad1
+Thu Mar 10 22:59:08 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:11: error: 'datos' undeclared (first use in this function)
+    *(v+i)>datos+i = valor;
+           ^~~~~
+exercises.c:106:11: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+1209c5d
