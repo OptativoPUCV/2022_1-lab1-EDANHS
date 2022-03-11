@@ -359,3 +359,8 @@ exercises.c:106:8: error: invalid type argument of '->' (have 'Vector {aka struc
         ^~
 Compilation failed
 c4672f9
+Fri Mar 11 10:53:54 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+de84ee2
