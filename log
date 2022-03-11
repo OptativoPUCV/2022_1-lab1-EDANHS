@@ -453,3 +453,13 @@ exercises.c:128:18: error: lvalue required as left operand of assignment
                   ^
 Compilation failed
 a3ae435
+Fri Mar 11 18:18:51 HSP 2022: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:128:18: error: lvalue required as left operand of assignment
+       c->datos+i = (*a->datos+i) + (*b->datos+i);
+                  ^
+Compilation failed
+4ccef4d
