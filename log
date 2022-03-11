@@ -282,3 +282,14 @@ exercises.c:106:11: error: expected identifier before '(' token
            ^
 Compilation failed
 1fcbec3
+Thu Mar 10 22:58:06 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:10: error: 'v + (sizetype)((unsigned int)i * 8u)' is a pointer; did you mean to use '->'?
+    *(v+i).datos+i = valor;
+          ^
+          ->
+Compilation failed
+778fad1
