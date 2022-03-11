@@ -98,3 +98,12 @@ exercises.c:71:11: error: function returns address of local variable [-Werror=re
 cc1.exe: all warnings being treated as errors
 Compilation failed
 39815b1
+Thu Mar 10 22:25:03 HSP 2022: 
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:71:11: error: function returns address of local variable [-Werror=return-local-addr]
+    return &Dato;
+           ^~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1e8a1e3
