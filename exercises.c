@@ -91,7 +91,7 @@ Vector * crearVector(int n) {
    Vector *vector = (Vector *) malloc(n * sizeof(Vector));
    if (vector == NULL) exit(EXIT_FAILURE);
 
-   vector->datos = (int *) calloc(n,sizeof(int));
+   vector->datos = (int *) calloc(1,sizeof(int));
    vector->capacidad = n;
 
    return vector;
@@ -103,7 +103,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-   v[i].capacidad = valor;
+   v[i].datos[0] = valor;
 }
 
 /*
