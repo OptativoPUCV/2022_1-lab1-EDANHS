@@ -344,3 +344,8 @@ exercises.c:106:4: error: invalid type argument of unary '*' (have 'int')
     ^~~~~~~~~~~~~~~~
 Compilation failed
 6c27ef6
+Fri Mar 11 10:52:27 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+4a5982f
