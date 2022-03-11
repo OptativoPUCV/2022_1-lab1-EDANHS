@@ -66,3 +66,24 @@ exercises.c:106:1: error: control reaches end of non-void function [-Werror=retu
 cc1.exe: all warnings being treated as errors
 Compilation failed
 e0b0bee
+Thu Mar 10 22:21:29 HSP 2022: 
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:96:13: error: incompatible types when assigning to type 'Vector {aka struct <anonymous>}' from type 'int'
+    *(v + i) = valor;
+             ^
+exercises.c: In function 'obtenerValor':
+exercises.c:105:11: error: incompatible types when returning type 'Vector {aka struct <anonymous>}' but 'int' was expected
+    return *(v + i);
+           ^~~~~~~~
+exercises.c: In function 'sumaV':
+exercises.c:117:28: error: invalid operands to binary + (have 'Vector {aka struct <anonymous>}' and 'Vector {aka struct <anonymous>}')
+       *(c + i) = (*(a + i) + *(b + i));
+                   ~~~~~~~~ ^ ~~~~~~~~
+exercises.c: In function 'obtenerValor':
+exercises.c:106:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+a5209d7
