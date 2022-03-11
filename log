@@ -379,3 +379,8 @@ Fri Mar 11 11:02:03 HSP 2022:
  1 file changed, 3 insertions(+), 2 deletions(-)
  tests:  0|0
 5d74b73
+Fri Mar 11 11:12:46 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+97a8d85
