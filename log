@@ -433,3 +433,13 @@ exercises.c:128:19: error: lvalue required as left operand of assignment
                    ^
 Compilation failed
 0d3ac5b
+Fri Mar 11 17:56:16 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:128:33: error: invalid operands to binary + (have 'int *' and 'int *')
+       c->datos+i = (a->datos+i) + (b->datos+i);
+                    ~~~~~~~~~~~~ ^ ~~~~~~~~~~~~
+Compilation failed
+bfca1d8
