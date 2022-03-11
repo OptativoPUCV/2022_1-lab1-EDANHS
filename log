@@ -177,3 +177,13 @@ exercises.c:106:8: error: invalid type argument of '->' (have 'Vector {aka struc
         ^~
 Compilation failed
 fd8915c
+Thu Mar 10 22:46:36 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:14: error: expected identifier before '*' token
+    *(v + i)->*(datos + i) = valor;
+              ^
+Compilation failed
+9df7e6c
