@@ -157,3 +157,13 @@ Thu Mar 10 22:37:01 HSP 2022:
  1 file changed, 4 insertions(+), 1 deletion(-)
  tests:  0|0
 9b1f2ac
+Thu Mar 10 22:38:35 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:106:4: error: invalid type argument of unary '*' (have 'int')
+    *(v + i)->capacidad = valor;
+    ^~~~~~~~~~~~~~~~~~~
+Compilation failed
+3e4e18e
