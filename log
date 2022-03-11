@@ -528,3 +528,13 @@ exercises.c:128:19: error: lvalue required as left operand of assignment
                    ^
 Compilation failed
 b8deb56
+Fri Mar 11 18:27:25 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:128:11: error: invalid type argument of '->' (have 'Vector {aka struct <anonymous>}')
+       (*c)->datos[i] = (a->datos[i]) + (b->datos[i]);
+           ^~
+Compilation failed
+9254015
